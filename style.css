@@ -1,0 +1,77 @@
+/* ressets */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #111111;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.calculator {
+  background: #1e1e1e;
+  width: 350px;
+  padding: 30px;
+  border-radius: 16px;
+}
+.calculator h1 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+.calculator input {
+  width: 100%;
+  padding: 12px;
+  background: #111111;
+  color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #444444;
+}
+
+.calculator select {
+  width: 100%;
+  padding: 14px;
+  background: #111111;
+  color: #ffffff;
+}
+
+.calculator button {
+  width: 100%;
+  padding: 14px;
+  background: #f97316;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calculator p {
+  text-align: center;
+  font-size: 22px;
+  margin: 20px;
+}
+/* Input and dropdown focus effects */
+.calculator input:focus,
+.calculator select:focus {
+  outline: 2px solid #f97316;
+}
+
+
+/* Button interaction */
+.calculator button {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Responsive design */
+@media (max-width: 400px) {
+  .calculator {
+    padding: 20px;
+  }
+}
